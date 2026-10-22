@@ -1,0 +1,17 @@
+{
+  "name": "context_evolution_full_smoke",
+  "data_file": "data/real/us_daily_adjusted_close.csv",
+  "warmup_days": 80,
+  "window_days": 180,
+  "oos_days": 60,
+  "bootstrap_reps": 2000,
+  "seed": 2026,
+  "transaction_cost_bps": 10.0,
+  "max_asset_weight": 0.35,
+  "failure_lookback": 5,
+  "failure_return_threshold": 0.0,
+  "failure_drawdown_threshold": -0.08,
+  "volatility_threshold": 0.22,
+  "candidate_multipliers": [0.7, 1.0, 1.15],
+  "min_experience": 5
+}

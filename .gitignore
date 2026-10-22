@@ -1,0 +1,17 @@
+# 数据与结果（体积大，且属于复现产物，不纳入版本控制）
+data/
+result/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# 日志与临时文件
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+{
+  "source_root": "G:/QUANT_DATA/modelscop_quantL2/1_kline_data/daily_backward",
+  "membership_file": "G:/QUANT_DATA/baostock_5min_2024_2026/membership/current_membership.parquet",
+  "selection_start": "2024-01-02",
+  "selection_end": "2024-12-31",
+  "asset_count": 15,
+  "transaction_cost_bps": 10.0,
+  "seeds": [101, 202, 303],
+  "methods": ["Static Base", "Static Tool-Calling", "EvolveBase", "EvolveStrategy", "EvolveTrade"],
+  "evaluation_windows": {
+    "A_2025-01": ["2025-01-02", "2025-01-27"],
+    "A_2025-04": ["2025-04-01", "2025-04-28"],
+    "A_2025-09": ["2025-09-01", "2025-09-26"],
+    "A_2025-11": ["2025-11-03", "2025-11-28"],
+    "A_2026-02": ["2026-02-02", "2026-02-27"],
+    "A_2026-04": ["2026-04-01", "2026-04-29"]
+  }
+}
